@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f8fa;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar, .right-sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.sidebar {
+    width: 20%;
+    border-right: 1px solid #e1e8ed;
+}
+
+.right-sidebar {
+    width: 20%;
+    border-left: 1px solid #e1e8ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content {
+    width: 60%;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.tweet-box {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tweet-box textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+}
+
+.tweet-box button {
+    background-color: #1da1f2;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.tweet-box button:hover {
+    background-color: #0d95e8;
+}
+
+.tweets .tweet {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #e1e8ed;
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-btn {
+    background-color: #1da1f2;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.action-btn:hover {
+    background-color: #0d95e8;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+body.dark-mode .investment-info {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+}
+
+
