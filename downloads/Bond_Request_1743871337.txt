@@ -1,0 +1,9 @@
+Bond Investment Request
+
+Company: Digicel
+Seller: Digicel
+Account Name: Testing
+Email: test@mail.com
+Amount: 200
+Duration: 5-Year
+Reason: Want to expand my range
