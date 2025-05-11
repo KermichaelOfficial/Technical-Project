@@ -37,6 +37,7 @@ $result = $stmt->get_result();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="media/Logo.png">
     <title>Notifications</title>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f5f8fa; }
@@ -172,7 +173,7 @@ $result = $stmt->get_result();
     <h3>Request Approved</h3>
     <p id="popup-info"></p>
     <button class="close-btn" onclick="document.getElementById('popup').style.display='none'">Close</button>
-    <button class="go-btn" onclick="window.location.href='industries.php'">Go To Industries</button>
+    <button class="go-btn" onclick="window.location.href='Ainvestors.php'">Go To Industries</button>
     <button class="thanks-btn" onclick="removeNotification()">Thanks</button>
 </div>
 
